@@ -14,6 +14,7 @@ void Map::display() {
 		for (auto& col : row) {
 			std::cout << col << "";
 		}
+		std::cout << std::endl;
 	}
 }
 

@@ -4,13 +4,23 @@
 #include <iostream>
 #include "Character.h"
 
-int main()
-{
-    Character hero("Max", 100, 50, 0.75);
-    hero.displayStats();
-    hero.takeDamage(25);
-    hero.recover();
+//int main()
+//{
+//    Character hero("Max", 100, 50, 0.75);
+//    hero.displayStats();
+//    hero.takeDamage(25);
+//    hero.recover();
+//}
+
+#include "World.h"
+
+int main() {
+    World world;
+    world.displayWorld();
+    world.simulateDayNightCycle();
+    return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
