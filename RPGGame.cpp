@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "Character.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Character hero("Max", 100, 50, 0.75);
+    hero.displayStats();
+    hero.takeDamage(25);
+    hero.recover();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
