@@ -1,5 +1,8 @@
 #pragma once
 
+// Purpose: this header file will declare all member variables and functions for the character
+// Location: 
+
 // a header file servers as a declaration of the 'Character' class and its member functions and variables. It provides an interface for using the 'Character' class without revealing
 // its implementation details
 

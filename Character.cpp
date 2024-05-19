@@ -1,3 +1,5 @@
+// Purpose: this source file will define the functions declared in the header
+
 // defining the character class
 // Character attributes:
 //1. Name, Health, Stamina, Immunity - hunger, thirst, warmth, ill?
@@ -15,7 +17,10 @@ Character::Character(const std::string& name, int health, int stamina, float imm
 // defines a constructor for the 'Character' class
 
 void Character::displayStats() const {
-    std::cout << "Character: " << name << "\nHealth: " << health << "\nStamina: " << stamina << "\n Immunity: " << immunity << std::endl;
+    std::cout << "Character: " << name
+              << "\nHealth: " << health
+              << "\nStamina: " << stamina
+              << "\n Immunity: " << immunity << std::endl;
 }
 
 void Character::takeDamage(int amount) {
